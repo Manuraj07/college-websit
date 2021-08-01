@@ -1,0 +1,193 @@
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title{
+    background-color: #ff4c68;
+    
+}
+#abc{
+    padding: 7% 15%;
+}
+.feature-box{
+	padding: 7% 15%;
+	text-align: center;
+	color: aqua;
+}
+#press {
+	background-color: green;
+	padding-bottom: 7% 15%;
+}
+h2{
+	text-align: center;
+	color: hotpink;
+}
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+  
+.feature-box:hover{
+	/* padding: 7% 15%;
+	text-align: center; */
+	color:red;
+}
+  
+h1{
+    font-family: 'Montserrat-thin';
+    size: 3rem;
+    line-height: 1.5;
+    
+}
+#manoranjan{
+	text-align: center;
+}
+#xyz{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #ff4c68;
+}
+#uuu{
+	text-align: center;
+}
+#xyz:hover{
+	color:#fff;
+}
+.btn{
+  margin: 20px 4px;
+
+}
+
+#pricing {
+	padding: 100px;
+	background-color: #ff4c68;
+  }
+  
+  .price-text {
+	font-size: 3rem;
+	line-height: 1.5;
+  }
+  
+  .pricing-column {
+	padding: 3% 2%;
+  }
+  h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat-Bold";
+  }
+  
+  p {
+	color: #8f8f8f;
+}
+  
+  /* CTA Section */
+  
+   /* Footer Section */
+  
+
+#footer{
+	text-align: center;
+}
+.social-icon {
+	margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  
+	#title {
+	  text-align: center;
+	}
+  
+	.title-image {
+	  position: static;
+	  transform: rotate(0);
+	}
+  }
+  
+
+
+body
+	{
+		font-family: sans-serif;
+		position: relative;
+	}
+
+	@keyframes bg
+	{
+		0%,100%{
+			background-color: rgba(0,0,0,0.7);
+		}
+
+		25%
+		{
+			background-color: rgba(255,0,0,0.7);
+		}
+
+		50%{
+			background-color: rgba(0,255,0,0.7);
+		}
+
+		75%{
+			background-color: rgba(0,0,255,0.7);
+		}
+
+
+	}
+
+	.slider
+	{
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		background-color: #111;
+		color: #fff;
+		display: flex;
+		align-items:center;
+		justify-content:center;
+		text-align: center;
+		animation:bg 4s linear infinite;
+		overflow: hidden;
+	}
+
+	.slider-container h1
+	{
+		margin-bottom: 20px;
+		font-size: 64px;
+		text-shadow:0 0 10px #fff;
+	}
+
+	.desc
+	{
+		margin: 30px 0;
+	}
+
+	.cta
+	{
+		padding: 15px 120px;
+		/* //border: 1px solid #fff; */
+		display: inline-block;
+		font-size: 24px;
+		font-weight: bold;
+		cursor: pointer;
+		transition:all 0.5s ease;
+		box-shadow: 0 0 10px #fff,0 0 20px #fff;
+		border-radius: 30px;
+	}
+
+	.cta:hover
+	{
+		/* border-color: #e74c3c; */
+		background-color: #fff;
+		/* box-shadow: 0 0 10px #fff,0 0 20px #fff; */
+		text-shadow:0 0 3px black;
+	}
+
+
+	.slider video
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: -1;
+	}
